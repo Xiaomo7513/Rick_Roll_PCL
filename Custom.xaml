@@ -1,0 +1,258 @@
+﻿<!-- 这是 PCL2 的主页诈骗文件。你可以通过修改这个文件来对 PCL2 实施电信诈骗，例如播放 https://b23.tv/V88bhTB。
+     如果你倒腾这个文件把龙腾猫跃骗了，把这个文件直接删除就行了。
+     如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新骗术…… -->
+    
+<local:MyCard Title="Rick Roll !!!" CanSwap="True" IsSwaped="True" Margin="0,10,0,10">
+    <StackPanel Margin="25,40,25,15">
+        <!-- Prelude -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <local:MyCard Title="1&#x0307;" CanSwap="True" IsSwaped="True" Margin="5,5,5,5" Width="150">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="25,40,25,15">
+                        <local:MyButton Text="2&#x0307;" Width="30" Height="30" Margin="0,0,5,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                        <local:MyButton Text="5" Width="30" Height="30" Margin="5,0,0,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="2&#x0307;" CanSwap="True" IsSwaped="True" Margin="5,5,5,5" Width="150">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="25,40,25,15">
+                        <local:MyButton Text="3&#x0307;" Width="30" Height="30" Margin="0,0,5,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                        <local:MyButton Text="5&#x0307;4&#x0307;3&#x0307;1&#x0307;" Width="60" Height="30" Margin="5,0,0,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </local:MyCard>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <local:MyCard Title="5" CanSwap="True" IsSwaped="True" Margin="5,5,5,5" Width="150">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="25,40,25,15">
+                        <local:MyButton Text="55" Width="30" Height="30" Margin="0,0,5,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                        <local:MyButton Text="61&#x0307;61&#x0307;" Width="60" Height="30" Margin="5,0,0,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="5" CanSwap="True" IsSwaped="True" Margin="5,5,5,5" Width="150">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="25,40,25,15">
+                        <local:MyButton Text="1&#x0307;1&#x0307;" Width="30" Height="30" Margin="0,0,5,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                        <local:MyButton Text="01&#x0307;01&#x0307;" Width="60" Height="30" Margin="5,0,0,0" Padding="5,5,5,5" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </local:MyCard>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- We were no strangers to love -->
+        <StackPanel Margin="0,0,0,15">
+            <local:MyHint Text="We were no strangers to love" IsWarn="False" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- You know the rules and so do I -->
+        <StackPanel Margin="0,0,0,15">
+            <local:MyHint Text="You know the rules and so do I" IsWarn="True" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- A full commitments what I'm thinking of -->
+        <!-- You wouldn't get this from any other guy -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Width="30" Height="30" Margin="0,0,10,0" Source="pack://application:,,,/images/Blocks/GoldBlock.png" VerticalAlignment="Center"/>
+                <TextBlock Text="A full commitments " VerticalAlignment="Center"/>
+                <local:MyTextButton Text="what I'm thinking of" Foreground="#0000FF" EventType="弹出窗口" EventData="Rick Astley|You wouldn't get this from any other guy" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- I just wanna tell you how I'm feeling -->
+        <!-- Gotta make you understand -->
+        <StackPanel Margin="0,0,0,15">
+            <local:MyCard Title="I" CanSwap="True" IsSwaped="True">
+                <StackPanel Margin="25,40,25,15" HorizontalAlignment="Center">
+                    <local:MyButton Text="just" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyButton Text="wanna" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyButton Text="tell" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyCard Title="you" Width="250" CanSwap="True" IsSwaped="True">
+                        <StackPanel Margin="25,40,25,15" HorizontalAlignment="Center">
+                            <local:MyButton Text="how" Width="200" Height="40" Margin="0,0,0,10"/>
+                            <local:MyButton Text="I'm" Width="200" Height="40" Margin="0,0,0,10"/>
+                            <local:MyButton Text="feeling" Width="200" Height="40" EventType="弹出窗口" EventData="Rick Astley|Gotta make you understand"/>
+                        </StackPanel>
+                    </local:MyCard>
+                </StackPanel>
+            </local:MyCard>
+        </StackPanel>
+
+        <!-- Never gonna give you up -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <local:MyHint Text="Never gonna give you" IsWarn="False" Width="180" Height="30" Margin="0,0,10,0" VerticalAlignment="Bottom"/>
+                <local:MyCard CanSwap="True" IsSwaped="True" Width="100" VerticalAlignment="Bottom">
+                    <StackPanel Margin="25,30,25,15" HorizontalAlignment="Center">
+                        <TextBlock Text="UP ↑" Margin="0,0,0,10"/>
+                        <TextBlock Text="UP ↑" Margin="0,0,0,10"/>
+                        <TextBlock Text="UP ↑" Margin="0,0,0,10"/>
+                        <TextBlock Text="UP ↑" Margin="0,0,0,10"/>
+                        <TextBlock Text="UP ↑"/>
+                    </StackPanel>
+                </local:MyCard>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna let you down -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <local:MyHint Text="Never gonna let you" IsWarn="False" Width="180" Height="30" Margin="0,0,10,0" VerticalAlignment="Top"/>
+                <local:MyCard CanSwap="True" IsSwaped="True" Width="100" VerticalAlignment="Top">
+                    <StackPanel Margin="25,30,25,15" HorizontalAlignment="Center">
+                        <TextBlock Text="DOWN ↓" Margin="0,0,0,10"/>
+                        <TextBlock Text="DOWN ↓" Margin="0,0,0,10"/>
+                        <TextBlock Text="DOWN ↓" Margin="0,0,0,10"/>
+                        <TextBlock Text="DOWN ↓" Margin="0,0,0,10"/>
+                        <TextBlock Text="DOWN ↓"/>
+                    </StackPanel>
+                </local:MyCard>
+            </StackPanel>
+        </StackPanel>
+        
+        <!-- Never gonna run around and desert you -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Never gonna" VerticalAlignment="Center"/>
+                <Image Source="{path}\PCL\Rick Roll\resources\run_around.gif" ToolTip="run around" Height="30" VerticalAlignment="Center"/>
+                <TextBlock Text="and" VerticalAlignment="Center"/>
+                <local:MyCard CanSwap="True" IsSwaped="True" Width="150" Margin="10,0,0,0" VerticalAlignment="Center">
+                    <StackPanel Margin="25,30,25,15">
+                        <TextBlock Text="你个色球！" Margin="0,0,0,10"/>
+                        <Image Source="{path}\PCL\Rick Roll\resources\no_horny.png" Height="100"/>
+                    </StackPanel>
+                </local:MyCard>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna make you cry -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="{path}\PCL\Rick Roll\resources\crying_obsidian.png" Width="30" Height="30" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Never gonna make you " VerticalAlignment="Center"/>
+                <local:MyTextButton Text="cry" Foreground="#0000FF" EventType="打开文件" EventData="{path}\PCL\Rick Roll\cry.exe" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna say goodbye -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="{path}\PCL\Rick Roll\resources\creeper.png" Width="25" Height="25" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Never gonna " VerticalAlignment="Center"/>
+                <local:MyTextButton Text="say goodbye" Foreground="#0000FF" EventType="打开文件" EventData="cmd.exe|/Q /C TASKKILL /F /IM cry.exe" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna tell a lie and hurt you -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Never gonna tell a " VerticalAlignment="Center"/>
+                <Image Source="{path}\PCL\Rick Roll\resources\cake.png" ToolTip="The cake is a lie!" Width="35" Height="35" VerticalAlignment="Center"/>
+                <TextBlock Text=" and hurt you" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- We've known each other for so long -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="维诺 • " VerticalAlignment="Center"/>
+                <Image Source="{path}\PCL\Rick Roll\resources\richard.png" ToolTip="理查德" Width="60" Height="60" VerticalAlignment="Center"/>
+                <TextBlock Text=" • " VerticalAlignment="Center"/>
+                <Image Source="{path}\PCL\Rick Roll\resources\汪苏泷.png" ToolTip="汪苏泷" Width="60" Height="60" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Your hearts been aching -->
+        <!-- But you're too shy to say it -->
+        <StackPanel Margin="0,0,0,15">
+            <local:MyCard CanSwap="True" IsSwaped="True">
+                <StackPanel Margin="25,30,25,15" HorizontalAlignment="Center">
+                    <local:MyButton Text="Your" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyButton Text="hearts" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyButton Text="been" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyButton Text="aching" Width="250" Height="40" Margin="0,0,0,10"/>
+                    <local:MyCard Title="but" Width="250" CanSwap="True" IsSwaped="True">
+                        <StackPanel Margin="25,40,25,15">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <local:MyButton Text="you're" Width="70" Height="40" Margin="0,0,10,10"/>
+                                <local:MyButton Text="too" Width="70" Height="40" Margin="0,0,0,10"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <local:MyButton Text="shy" Width="70" Height="40" Margin="0,0,10,10"/>
+                                <local:MyButton Text="to" Width="70" Height="40" Margin="0,0,0,10"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <local:MyButton Text="say" Width="70" Height="40" Margin="0,0,10,0"/>
+                                <local:MyButton Text="it" Width="70" Height="40"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </local:MyCard>
+                </StackPanel>
+            </local:MyCard>
+        </StackPanel>
+
+        <!-- Inside we both know what's been going on -->
+        <StackPanel Margin="0,0,0,15">
+            <local:MyHint Text="Inside we both know what's been going on" IsWarn="False" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- We know the game and we're gonna play it -->
+        <!-- And if you ask me how I'm feeling -->
+        <!-- Don't tell me you're too blind to see -->
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="We know the game and we're gonna" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+            <local:MyButton Text="PLAY IT!" EventType="打开文件" EventData="{path}\PCL\Rick Roll\open_file.exe|&quot;{path}\PCL\Rick Roll\Files&quot;" ColorType="Highlight" Width="100" Height="35" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Never gonna give you up -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <local:MyHint Text="Never gonna give you" Width="180" Height="30" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <local:MyButton Text="UP" EventType="打开文件" EventData="{path}\PCL\Rick Roll\up.exe" ColorType="Highlight" Width="50" Height="30" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna let you down -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <local:MyHint Text="Never gonna let you" Width="180" Height="30" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <local:MyButton Text="DOWN" EventType="打开文件" EventData="{path}\PCL\Rick Roll\down.exe" ColorType="Highlight" Width="50" Height="30" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna run around and desert you -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <Image Source="{path}\PCL\Rick Roll\resources\run_around.gif" ToolTip="run around" Height="30" VerticalAlignment="Center"/>
+                <TextBlock Text="Never gonna " VerticalAlignment="Center"/>
+                <local:MyTextButton Text="run around" Foreground="#0000FF" EventType="打开文件" EventData="{path}\PCL\Rick Roll\run_around.exe" VerticalAlignment="Center"/>
+                <TextBlock Text=" and " VerticalAlignment="Center"/>
+                <local:MyTextButton Text="desert you" Foreground="#0000FF" EventType="打开文件" EventData="{path}\PCL\Rick Roll\desert_you.exe" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna make you cry -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="{path}\PCL\Rick Roll\resources\crying_obsidian.png" Width="30" Height="30" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Never gonna make you " VerticalAlignment="Center"/>
+                <local:MyButton Text="CRY" ColorType="Highlight" EventType="打开文件" EventData="{path}\PCL\Rick Roll\cry.exe" Width="50" Height="30" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna say goodbye -->
+        <StackPanel Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="{path}\PCL\Rick Roll\resources\creeper.png" Width="25" Height="25" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Never gonna " VerticalAlignment="Center"/>
+                <local:MyButton Text="SAY GODBYE!" ColorType="Highlight" EventType="打开文件" EventData="cmd.exe|/Q /C TASKKILL /F /IM cry.exe" Width="100" Height="30" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Never gonna tell a lie and hurt you -->
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="{path}\PCL\Rick Roll\resources\cake.png" Margin="0,0,10,0" Width="35" Height="35" VerticalAlignment="Center"/>
+                <TextBlock Text="Never gonna tell a lie and " VerticalAlignment="Center"/>
+                <local:MyTextButton Text="hurt you~" Foreground="#0000FF" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/?t=119.8" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
