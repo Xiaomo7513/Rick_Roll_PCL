@@ -223,8 +223,7 @@
                 <Image Source="{path}\PCL\Rick Roll\resources\run_around.gif" ToolTip="run around" Height="30" VerticalAlignment="Center"/>
                 <TextBlock Text="Never gonna " VerticalAlignment="Center"/>
                 <local:MyTextButton Text="run around" Foreground="#0000FF" EventType="打开文件" EventData="{path}\PCL\Rick Roll\run_around.exe" VerticalAlignment="Center"/>
-                <TextBlock Text=" and " VerticalAlignment="Center"/>
-                <local:MyTextButton Text="desert you" Foreground="#0000FF" EventType="打开文件" EventData="{path}\PCL\Rick Roll\desert_you.exe" VerticalAlignment="Center"/>
+                <TextBlock Text=" and desert you" VerticalAlignment="Center"/>
             </StackPanel>
         </StackPanel>
 
