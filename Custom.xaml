@@ -251,7 +251,7 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Image Source="{path}\PCL\Rick Roll\resources\cake.png" Margin="0,0,10,0" Width="35" Height="35" VerticalAlignment="Center"/>
                 <TextBlock Text="Never gonna tell a lie and " VerticalAlignment="Center"/>
-                <local:MyTextButton Text="hurt you~" Foreground="#0000FF" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/?t=119.8" VerticalAlignment="Center"/>
+                <local:MyTextButton Text="hurt you~" Foreground="#0000FF" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/?t=102.4" VerticalAlignment="Center"/>
             </StackPanel>
         </StackPanel>
     </StackPanel>
